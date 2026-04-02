@@ -1,1 +1,93 @@
+
+
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.train-ticket {
+    background: #fffdf7;
+    border: 2px dashed #1f2937;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    font-family: "Share Tech Mono", monospace;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.train-ticket:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+.ticket-top {
+    background: #1f2937;
+    color: white;
+    padding: 14px 18px;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ticket-company {
+    font-weight: bold;
+}
+
+.ticket-code {
+    background: #facc15;
+    color: #111827;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+}
+
+.ticket-body {
+    padding: 20px 18px;
+}
+
+.station-label {
+    font-size: 0.8rem;
+    color: #6b7280;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.station-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #111827;
+}
+
+.station-time {
+    font-size: 0.9rem;
+    color: #374151;
+    margin-top: 6px;
+}
+
+.train-arrow {
+    font-size: 2rem;
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.ticket-divider {
+    border-top: 2px dashed #9ca3af;
+    margin: 20px 0;
+}
+
+.ticket-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-row {
+    font-size: 0.95rem;
+    color: #111827;
+}
+
+.ticket-footer {
+    background: #f3f4f6;
+    padding: 10px;
+    font-size: 0.8rem;
+    color: #6b7280;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
