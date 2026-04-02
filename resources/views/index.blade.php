@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="ticket-footer text-center">
-                        Boarding Pass / Train Ticket
+                        Ticket
                     </div>
 
                 </div>
